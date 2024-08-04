@@ -1,15 +1,19 @@
-
+import AboutMe from './aboutMe/page';
+import { ContactMe } from './components/ContactMe';
+import { Education } from './components/Education';
+import { Experience } from './components/Experience';
+import { MyProjects } from './components/MyProjects';
+import Skills from './components/Skills';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>y este el interior</p>
-      <p>y aqui ira la informacion </p>
-      
-
-      
-
-      
+    <main>
+      <AboutMe />
+      <Skills />
+      <MyProjects />
+      <Education />
+      <Experience />
+      <ContactMe />
     </main>
   );
 }
