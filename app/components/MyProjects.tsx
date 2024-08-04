@@ -6,9 +6,9 @@ export const MyProjects = ({ title }) => {
   return (
     <div>
       <Title title={title} />
-      <Card />
-      <Card />
-      <Card />
+      <Card titleCard="GiftList" text="aaa" link="aaalink" />
+      <Card titleCard="Harry Potter" text="aaa" link="aaalink" />
+      <Card titleCard="My To Do List" text="aaa" link="aaalink" />
     </div>
   );
 };
