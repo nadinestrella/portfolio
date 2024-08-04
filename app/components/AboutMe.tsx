@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const aboutMe = () => {
+export const AboutMe = () => {
   return (
     <div>
       {/* <Image width={100} height={100} alt="myself photo" /> */}
