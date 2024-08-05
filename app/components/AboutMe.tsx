@@ -5,26 +5,26 @@ import { Title } from './ui/Title';
 
 export const AboutMe = ({ title }) => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center pb-3">
       <Title title={title} />
-      <h1>Hi! I am Nadine Estrella</h1>
+      <h1 className="pb-3">Hi! I am Nadine Estrella</h1>
       <Image
         width={100}
         height={100}
         alt="myself photo"
         src={'/nadineProfile.jpg'}
-        className="rounded-full"
+        className="rounded-full pb-3"
       />
-      <p>
+      <p className="pb-3">
         {' '}
         I am a Junior Fullstack Developer based in Madrid, eager to kickstart my
         career in the tech industry.
       </p>
       <Link
         href={`/moreInfo`}
-        className="rounded-full w-16 h-8 bg-slate-500 text-sm text-white"
+        className="rounded-full text-sm w-56 h-10 bg-black flex justify-center items-center justify-self-end font-semibold text-white"
       >
-        more
+        I want to know more about you
       </Link>
     </div>
   );

@@ -3,7 +3,7 @@ import { Title } from './ui/Title';
 
 export const Education = ({ title }) => {
   return (
-    <div className="flex flex-col   items-center">
+    <div className="flex flex-col   items-center p-3">
       <Title title={title} />
       <ul>
         <li>

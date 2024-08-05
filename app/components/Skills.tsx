@@ -18,9 +18,9 @@ import {
 
 const Skills = ({ title }) => {
   return (
-    <div className="flex flex-col   items-center">
+    <div className="flex flex-col items-center p-3">
       <Title title={title} />
-      <h4 className="font-semibold text-lg">Frontend</h4>
+      <h4 className="font-semibold text-lg p-2">Frontend</h4>
 
       <ul>
         <li className="flex flex-row gap-5 items-center">
@@ -58,7 +58,7 @@ const Skills = ({ title }) => {
         </li>
       </ul>
 
-      <h4 className="font-semibold text-lg">Backend</h4>
+      <h4 className="font-semibold text-lg p-2">Backend</h4>
       <ul>
         <li className="flex flex-row gap-5 items-center">
           <Node />
@@ -73,13 +73,13 @@ const Skills = ({ title }) => {
           Mongo DB
         </li>
       </ul>
-      <h4 className="font-semibold text-lg ">Others</h4>
+      <h4 className="font-semibold text-lg p-2">Others</h4>
       <ul>
         <li className="flex flex-row gap-5 items-center">
           <Github /> <span>GitHub</span>
         </li>
       </ul>
-      <h4 className="font-semibold text-lg">Soft Skills</h4>
+      <h4 className="font-semibold text-lg p-2">Soft Skills</h4>
       <ul>
         <li>Attention to detail</li>
         <li>Problem- solvin</li>

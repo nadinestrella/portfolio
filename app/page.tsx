@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 
 export default function Home() {
   return (
-    <main>
+    <main className="p-2">
       <AboutMe title="About me" />
       <Skills title="Skills" />
       <MyProjects title="My Projects" />
