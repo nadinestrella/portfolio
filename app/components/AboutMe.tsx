@@ -1,22 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const AboutMe = () => {
   return (
-    <div>
-      {/* <Image width={100} height={100} alt="myself photo" /> */}
+    <div className="flex flex-col justify-center items-center">
+      <h1>Hi! I am Nadine Estrella</h1>
+      <Image
+        width={100}
+        height={100}
+        alt="myself photo"
+        src={'/nadineProfile.jpg'}
+        className="rounded-full"
+      />
       <p>
-        Hello! I am Nadine and I live in Madrid. I studied Business
-        Administration and worked as an Administrative Assistant for a few
-        years. In 2016, I moved to London and lived there until 2021. It was a
-        great experience and a daily challenge. There, I worked as a barista at
-        Starbucks until I had my first child. After dedicating a few years to my
-        family, last year I decided that I wanted to embark on something new,
-        have a challenge in mind, and do something different from what I had
-        known until then. I decided to study Web Programming and enrolled in a
-        bootcamp at Adalab. It has been a tough journey, but I am starting to be
-        proud of the small steps I am taking.
+        {' '}
+        I am a Junior Fullstack Developer based in Madrid, eager to kickstart my
+        career in the tech industry.
       </p>
+      <Link
+        href={`/moreInfo`}
+        className="rounded-full w-12 h-8 bg-slate-500 text-sm"
+      >
+        more
+      </Link>
     </div>
   );
 };
