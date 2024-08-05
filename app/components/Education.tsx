@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title } from '../ui/Title';
+import { Title } from './ui/Title';
 
 export const Education = ({ title }) => {
   return (
