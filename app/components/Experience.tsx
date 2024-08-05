@@ -3,7 +3,7 @@ import { Title } from './ui/Title';
 
 export const Experience = ({ title }) => {
   return (
-    <div>
+    <div className="flex flex-col   items-center">
       <Title title={title} />
       <ul>
         <li>

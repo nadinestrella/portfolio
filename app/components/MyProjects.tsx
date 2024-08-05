@@ -4,7 +4,7 @@ import { Title } from './ui/Title';
 
 export const MyProjects = ({ title }) => {
   return (
-    <div>
+    <div className="flex flex-col   items-center">
       <Title title={title} />
       <Card titleCard="GiftList" text="aaa" link="aaalink" />
       <Card titleCard="Harry Potter" text="aaa" link="aaalink" />

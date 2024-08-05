@@ -3,7 +3,7 @@ import { Title } from './ui/Title';
 
 export const ContactMe = ({ title }) => {
   return (
-    <div>
+    <div className="flex flex-col   items-center">
       <Title title={title} />
       <p>
         Thank you for check my portfolio! If you have any recommendatios or
