@@ -22,7 +22,7 @@ export const AboutMe = ({ title }) => {
       </p>
       <Link
         href={`/moreInfo`}
-        className="rounded-full text-sm w-56 h-10 bg-black flex justify-center items-center justify-self-end font-semibold text-white"
+        className="rounded-full  w-52 h-10 bg-black flex justify-center items-center justify-self-end  text-xs text-white"
       >
         I want to know more about you
       </Link>
