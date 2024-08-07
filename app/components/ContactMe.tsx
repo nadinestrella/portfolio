@@ -6,8 +6,8 @@ export const ContactMe = ({ title }) => {
     <div className="flex flex-col   items-center">
       <Title title={title} />
       <p>
-        Thank you for check my portfolio! If you have any recommendatios or
-        comments feel free to contact me!
+        Thank you for visiting my portfolio! If you have any recommendations or
+        comments feel free to contact me! 🙂
       </p>
     </div>
   );

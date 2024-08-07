@@ -4,7 +4,7 @@ import { Title } from './ui/Title';
 
 export const MyProjects = ({ title }) => {
   return (
-    <div className="flex flex-col items-center p-3">
+    <div className="flex flex-col items-center p-3 mb-5">
       <Title title={title} />
 
       <div className="grid grid-flow-row md:grid-cols-3 md:gap-2 max-w-screen-md mx-auto">
