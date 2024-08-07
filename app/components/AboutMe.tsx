@@ -5,9 +5,9 @@ import { Title } from './ui/Title';
 
 export const AboutMe = ({ title }) => {
   return (
-    <div className="flex flex-col justify-center items-center pb-3">
+    <div className="flex flex-col justify-center items-center pb-3  ">
       <Title title={title} />
-      <h1 className="pb-3">Hi! I am Nadine Estrella</h1>
+
       <Image
         width={100}
         height={100}
@@ -15,17 +15,23 @@ export const AboutMe = ({ title }) => {
         src={'/nadineProfile.jpg'}
         className="rounded-full pb-3"
       />
-      <p className="pb-3">
-        {' '}
-        I am a Junior Fullstack Developer based in Madrid, eager to kickstart my
-        career in the tech industry.
-      </p>
+      <div className="flex flex-col justify-center items-center ">
+        <h1 className="pb-3 text-lg">
+          Hi! I am <strong>Nadine Estrella</strong>
+        </h1>
+        <p className="pb-3   ">
+          {' '}
+          I am a Junior Fullstack Developer based in Madrid, eager to kickstart
+          my career in the tech industry.
+        </p>
+      </div>
       <Link
         href={`/moreInfo`}
         className="rounded-full  w-52 h-10 bg-black flex justify-center items-center justify-self-end  text-xs text-white"
       >
         I want to know more about you
       </Link>
+      <div className="flex justify-center"></div>
     </div>
   );
 };

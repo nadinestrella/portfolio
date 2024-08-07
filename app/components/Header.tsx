@@ -4,8 +4,7 @@ import NavegationBar from './NavegationBar';
 export const Header = () => {
   return (
     <header>
-      {/* <NavegationBar /> */}
-   
+      <NavegationBar />
     </header>
   );
 };

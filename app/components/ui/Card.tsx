@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
   return (
-    <article className="border-2 rounded-lg w-full p-2 m-2 shadow-lg bg-background ">
-      <h4 className="flex flex-col md:flex-row items-center font-semibold p-3 ">
+    <article className="border-2 rounded-lg w-full p-2 m-2 shadow-lg border-background">
+      <h4 className="flex flex-col justify-center md:flex-row items-center font-semibold p-3 ">
         {titleCard}
       </h4>
       <Image
