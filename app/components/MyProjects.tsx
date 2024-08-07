@@ -7,7 +7,7 @@ export const MyProjects = ({ title }) => {
     <div className="flex flex-col items-center p-3 mb-5">
       <Title title={title} />
 
-      <div className="grid grid-flow-row md:grid-cols-3 md:gap-2 max-w-screen-md mx-auto">
+      <div className="grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-2 mx-auto">
         <Card
           titleCard="GiftList 🧒"
           text="Interactive application for kids that allows them to create a gift list."
