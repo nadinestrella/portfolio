@@ -3,9 +3,9 @@ import { Title } from './ui/Title';
 
 export const Experience = ({ title }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div>
       <Title title={title} />
-      <ul>
+      <ul className="flex flex-col items-start">
         <li>
           <h4 className="font-semibold">
             {' '}

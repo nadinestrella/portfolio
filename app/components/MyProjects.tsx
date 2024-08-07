@@ -4,12 +4,12 @@ import { Title } from './ui/Title';
 
 export const MyProjects = ({ title }) => {
   return (
-    <div className="flex flex-col items-center p-3 boder b-2 b-zinc-200 rounded-lg ">
+    <div className="flex flex-col items-center p-3">
       <Title title={title} />
 
-      <div>
+      <div className="grid grid-flow-row md:grid-cols-3 md:gap-2 max-w-screen-md mx-auto">
         <Card
-          titleCard="GiftList"
+          titleCard="GiftList 🧒"
           text="Interactive application for kids that allows them to create a gift list."
           link="https://gift-list-eight.vercel.app/"
           linkrepo="https://github.com/nadinestrella/GiftList"
@@ -17,7 +17,7 @@ export const MyProjects = ({ title }) => {
           image={'/giftList.png'}
         />
         <Card
-          titleCard="Harry Potter"
+          titleCard="Harry Potter🪄"
           text="Web search engine for characters from the famous Harry Potter series."
           link="https://nadinestrella.github.io/HarryPotter/"
           linkrepo="https://github.com/nadinestrella/HarryPotter"
@@ -25,7 +25,7 @@ export const MyProjects = ({ title }) => {
           image={'/harryPotter.png'}
         />
         <Card
-          titleCard="My To Do List"
+          titleCard="My To Do List 🗒️"
           text="It allows y﻿ou to efficiently organize and keep monitor your tasks."
           link="https://nadinestrella.github.io/myToDoList/"
           linkrepo="https://github.com/nadinestrella/myToDoList"

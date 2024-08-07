@@ -6,13 +6,15 @@ export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
       <h4 className="flex flex-col justify-center md:flex-row items-center font-semibold p-3 ">
         {titleCard}
       </h4>
+
       <Image
         width={300}
         height={300}
         alt="project photo"
         src={image}
-        className="p-3 w-full "
+        className="p-3 w-full max-h-52  rounded"
       />
+
       <p className="p-3">{text} </p>
       <span className="p-3 text-sm">Tech:{tech}</span>
       <a className="block text-sm" href={link} target="_blank">

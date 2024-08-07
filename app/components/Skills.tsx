@@ -18,7 +18,7 @@ import {
 
 const Skills = ({ title }) => {
   return (
-    <div className="flex flex-col  items-center p-3  ">
+    <div className="flex flex-col  items-center p-3 md:text-sm  ">
       <Title title={title} />
       <h4 className="font-semibold text-lg p-2">Frontend</h4>
 
