@@ -6,6 +6,7 @@ import { Header } from './components/Header';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { AboutMe } from './components/AboutMe';
+import { NavegationBar } from './components/NavegationBar';
 config.autoAddCss = false;
 
 const poppins = Poppins({
@@ -26,8 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Header />
-        <AboutMe />
+        <header>
+          <AboutMe />
+          <NavegationBar />
+        </header>
+
         {children}
         <Footer />
       </body>

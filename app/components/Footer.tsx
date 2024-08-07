@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export const Footer = () => {
   return (
@@ -23,6 +23,12 @@ export const Footer = () => {
           className="hover:text-background3"
         >
           <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a
+          href="mailto:nadinestrella@gmail.com"
+          className="hover:text-background3"
+        >
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
     </div>

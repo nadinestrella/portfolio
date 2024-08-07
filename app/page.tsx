@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="p-2  md:mx-auto lg:flex lg:flex-row max-w-screen-xl mx-auto">
-      <div className="min-w-80 lg:flex lg:flex-col mt-12 lg:gap-3 ">
+      <div className="min-w-80 lg:flex lg:flex-col lg:gap-3 ">
         <Skills title="Skills" />
       </div>
       <div>

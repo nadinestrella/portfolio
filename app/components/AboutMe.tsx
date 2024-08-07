@@ -25,12 +25,12 @@ export const AboutMe = () => {
           </p>
         </div>
       </div>
-      <Link
+      {/* <Link
         href={`/moreInfo`}
         className="rounded-full  w-52 h-10 bg-black flex justify-center items-center justify-self-end  text-xs text-white"
       >
         I want to know more about you
-      </Link>
+      </Link> */}
     </div>
   );
 };

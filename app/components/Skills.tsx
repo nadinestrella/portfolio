@@ -18,7 +18,7 @@ import {
 
 const Skills = ({ title }) => {
   return (
-    <div className="flex flex-col  items-center p-3 md:text-sm  ">
+    <div id="skills" className="flex flex-col items-center p-3 md:text-sm">
       <Title title={title} />
       <div className="md:flex md:flex-row gap-9 lg:flex-col">
         <div>

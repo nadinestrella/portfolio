@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'About me | Nadine Estrella',
 };
 
-export default function MoreInfo() {
+export default function About() {
   return (
     <main className="p-2">
       <p className="flex flex-col justify-center items-center pb-3">

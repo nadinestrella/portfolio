@@ -9,6 +9,7 @@ export const ContactMe = ({ title }) => {
         Thank you for visiting my portfolio! If you have any recommendations or
         comments feel free to contact me! 🙂
       </p>
+    
     </div>
   );
 };
