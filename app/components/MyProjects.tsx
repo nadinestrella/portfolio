@@ -4,10 +4,10 @@ import { Title } from './ui/Title';
 
 export const MyProjects = ({ title }) => {
   return (
-    <div className="flex flex-col items-center p-3 mb-5">
+    <div className="flex flex-col p-3 mb-5">
       <Title title={title} />
 
-      <div className="grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-2 mx-auto">
+      <div className="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-2 mx-auto">
         <Card
           titleCard="GiftList 🧒"
           text="Interactive application for kids that allows them to create a gift list."

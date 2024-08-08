@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
   return (
-    <article className="border-2 rounded-lg w-full p-2 shadow-lg border-background flex-1">
-      <h4 className="flex flex-col justify-center md:flex-row items-center font-semibold p-3 ">
+    <article className="border-2 rounded-lg w-full p-2 shadow-lg border-background">
+      <h4 className="flex flex-col justify-center items-center font-semibold p-3 ">
         {titleCard}
       </h4>
 
@@ -12,17 +15,32 @@ export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
         height={300}
         alt="project photo"
         src={image}
-        className="p-3 w-full max-h-52  rounded"
+        className="p-3 w-full max-h-52 object-contain"
       />
-
-      <p className="p-3">{text} </p>
-      <span className="p-3 text-sm">Tech:{tech}</span>
-      <a className="block text-sm" href={link} target="_blank">
-        Visit live project
-      </a>
-      <a className="pb-3 block text-sm" href={linkrepo} target="_blank">
-        View code
-      </a>
+      <div className="text-sm p-3 ">
+        <p className="mb-2">{text} </p>
+        <p className=" text-grey text-xs mb-2">
+          <strong>Tech:</strong> {tech}
+        </p>
+        <div className="flex gap-1 mt-auto">
+          <a
+            title="View project website"
+            className="inline-flex justify-center items-center h-10 w-10 text-sm bg-sky-800 rounded-full text-white"
+            href={link}
+            target="_blank"
+          >
+            <FontAwesomeIcon className="text-lg" icon={faLink} />
+          </a>
+          <a
+            className="inline-flex justify-center items-center h-10 w-10 text-sm bg-sky-800 rounded-full text-white"
+            href={linkrepo}
+            title="View code in github"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="text-lg" icon={faGithub} />
+          </a>
+        </div>
+      </div>
     </article>
   );
 };

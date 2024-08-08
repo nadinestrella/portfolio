@@ -3,7 +3,7 @@ import { Title } from './ui/Title';
 
 export const Education = ({ title }) => {
   return (
-    <div>
+    <div id="education">
       <Title title={title} />
       <ul className="flex flex-col items-start pb-3 ">
         <li>

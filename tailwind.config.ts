@@ -15,6 +15,10 @@ const config: Config = {
       },
       colors: {
         background: '#e8ebf3',
+        lightBlue: '#e9faf9',
+        darkBlue: '#2878ab',
+        blueSky: '#38b6ff',
+        grey: '#545454',
       },
     },
   },

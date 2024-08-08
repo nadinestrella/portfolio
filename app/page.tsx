@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { AboutMe } from './components/AboutMe';
 import { ContactMe } from './components/ContactMe';
 import { Education } from './components/Education';
 import { Experience } from './components/Experience';
@@ -12,12 +11,12 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="p-2  md:mx-auto lg:flex lg:flex-row max-w-screen-xl mx-auto">
-      <div className="min-w-80 lg:flex lg:flex-col lg:gap-3 ">
+    <main className="p-2  md:mx-auto lg:flex lg:flex-row max-w-screen-lg mx-auto">
+      <div className="min-w-60 flex items-center md:items-start flex-col gap-3">
         <Skills title="Skills" />
       </div>
       <div>
-        <MyProjects title="My Projects" />
+        <MyProjects title="Projects" />
         <Education title="Education" />
         <Experience title="Experience" />
         <ContactMe title="Contact me" />
