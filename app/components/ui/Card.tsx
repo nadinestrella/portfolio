@@ -25,25 +25,19 @@ export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
         <div className="flex gap-1 mt-auto pt-2">
           <a
             title="View project website"
-            className="inline-flex justify-center items-center h-10 w-10 text-sm bg-darkBlue hover:bg-lightBlue rounded-full text-white"
+            className="inline-flex justify-center items-center h-10 w-10 text-sm bg-darkBlue hover:bg-lightBlue  hover:text-darkBlue rounded-full text-white"
             href={link}
             target="_blank"
           >
-            <FontAwesomeIcon
-              className="text-lg hover:text-darkBlue"
-              icon={faLink}
-            />
+            <FontAwesomeIcon className="text-lg" icon={faLink} />
           </a>
           <a
-            className="inline-flex justify-center items-center h-10 w-10 text-sm  bg-darkBlue  hover:bg-lightBlue rounded-full text-white"
+            className="inline-flex justify-center items-center h-10 w-10 text-sm  bg-darkBlue  hover:bg-lightBlue  hover:text-darkBlue rounded-full text-white"
             href={linkrepo}
             title="View code in github"
             target="_blank"
           >
-            <FontAwesomeIcon
-              className="text-lg  hover:text-darkBlue"
-              icon={faGithub}
-            />
+            <FontAwesomeIcon className="text-lg" icon={faGithub} />
           </a>
         </div>
       </div>
