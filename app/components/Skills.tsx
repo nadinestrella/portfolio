@@ -14,13 +14,14 @@ import {
   Sass,
   TailwindCSS,
   TypeScript,
+  Figma,
 } from '../components/ui/Logos';
 
 const Skills = ({ title }) => {
   return (
     <div id="skills" className="flex flex-col p-3 md:text-sm w-full">
       <Title title={title} />
-      <div className="flex flex-col md:flex-row gap-9 lg:flex-col md:mx-auto lg:m-0">
+      <div className="flex flex-col   md:flex-row gap-9 lg:flex-col md:mx-auto lg:m-0">
         <div>
           <h4 className="font-semibold text-lg pb-2">Frontend</h4>
           <ul>
@@ -83,15 +84,26 @@ const Skills = ({ title }) => {
             <li className="flex flex-row gap-5 items-center">
               <Github /> <span>GitHub</span>
             </li>
+            <li className="flex flex-row gap-5 items-center">
+              <Figma /> <span>Figma</span>
+            </li>
           </ul>
         </div>
         <div>
           <h4 className="font-semibold text-lg pb-2">Soft Skills</h4>
           <ul>
-            <li>Attention to detail</li>
-            <li>Problem- solvin</li>
-            <li>Team Work</li>
-            <li>Time Management</li>
+            <li className="flex flex-row gap-5 items-center">
+              👀 <span>Attention to detail</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
+              ✅ <span>Problem- solvin</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
+              👯‍♀️ <span>Team Work</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
+              ⏰<span>Time Management</span>
+            </li>
           </ul>
         </div>
       </div>

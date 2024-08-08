@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 import { Footer } from './components/Footer';
-import { Header } from './components/Header';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { AboutMe } from './components/AboutMe';
 import { NavegationBar } from './components/NavegationBar';
+
 config.autoAddCss = false;
 
 const poppins = Poppins({
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <header>
+        <header className="p-2">
           <AboutMe />
           <NavegationBar />
         </header>
