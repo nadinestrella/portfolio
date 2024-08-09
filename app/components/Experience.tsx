@@ -15,20 +15,20 @@ export const Experience = ({ title }: TitleProps) => {
           imageUrl="/companies/adoptaunjunior_logo.jpeg"
         />
         <ExperienceItem
-          title="Volunteering at Adopta un Junior- Frontend"
+          title="Volunteering at Adopta un Junior - Frontend"
           date=" May 2024- July 2025 | Online"
           imageUrl="/companies/adoptaunjunior_logo.jpeg"
           content="Development of the blog for Adopta un Junior. Next, React, TypeScript,
             HTML y Tailwind."
         />
         <ExperienceItem
-          title="Founder- rentalpadel"
+          title="Founder - rentalpadel"
           date="Mar 2023 - Sept 2023 | Madrid"
-          imageUrl="/companies/adoptaunjunior_logo.jpeg"
+          imageUrl="/companies/rentalpadel.png"
           content="aaa"
         />
         <ExperienceItem
-          title="Barista- Starbucks"
+          title="Barista - Starbucks"
           date="Feb 2017 - Jan 2019 | London, UK"
           imageUrl="/companies/starbucks.jpeg"
           content="aa"

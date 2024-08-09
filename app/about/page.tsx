@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import React from 'react';
+import { Title } from '../components/ui/Title';
 
 export const metadata: Metadata = {
   title: 'About me | Nadine Estrella',
@@ -7,8 +8,9 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="p-2">
-      <p className="flex flex-col justify-center items-center pb-3">
+    <main className="p-3    max-w-screen-lg mx-auto">
+      <Title title="About me" />
+      <p className="flex flex-col justify-center  pb-3">
         I studied Business Administration and worked as an Administrative
         Assistant for a few years.
       </p>

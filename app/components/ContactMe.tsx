@@ -1,7 +1,7 @@
 import React from 'react';
-import { Title } from './ui/Title';
+import { Title, TitleProps } from './ui/Title';
 
-export const ContactMe = ({ title }) => {
+export const ContactMe = ({ title }: TitleProps) => {
   return (
     <div id="contact">
       <Title title={title} />

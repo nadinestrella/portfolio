@@ -26,7 +26,7 @@ export const ExperienceItem = ({
       <div>
         <h4 className="font-semibold"> {title}</h4>
         <span className="text-sm text-slate-500">{date}</span>
-        <div className="text-sm text-grey">{content}</div>
+        <div className="text-sm text-grey">{content} more..</div>
       </div>
     </li>
   );

@@ -17,6 +17,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Nadine Estrella',
   description: 'Nadine Estrella Portfolio',
+  icons: {
+    icon: '/nadineProfile.jpg',
+  },
 };
 
 export default function RootLayout({
@@ -26,8 +29,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-        <header className="p-2">
+      <body className={`${poppins.className} flex flex-col min-h-screen`}>
+        <header>
           <AboutMe />
           <NavegationBar />
         </header>
