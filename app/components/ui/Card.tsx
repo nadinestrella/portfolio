@@ -3,18 +3,35 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
-export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
+
+interface CardProps {
+  title: string;
+  text: string;
+  link: string;
+  tech: string;
+  imageUrl: string;
+  repoLink: string;
+}
+
+export const Card = ({
+  title,
+  text,
+  link,
+  tech,
+  imageUrl,
+  repoLink,
+}: CardProps) => {
   return (
     <article className="border-2 rounded-lg w-full p-2 shadow-lg border-background flex flex-col">
       <h4 className="flex flex-col justify-center items-center font-semibold p-3 ">
-        {titleCard}
+        {title}
       </h4>
 
       <Image
         width={300}
         height={300}
         alt="project photo"
-        src={image}
+        src={imageUrl}
         className="p-3 w-full max-h-52 object-contain"
       />
       <div className="text-sm p-3 flex flex-col flex-grow justify-between ">
@@ -33,7 +50,7 @@ export const Card = ({ titleCard, text, link, tech, image, linkrepo }) => {
           </a>
           <a
             className="inline-flex justify-center items-center h-10 w-10 text-sm  bg-darkBlue  hover:bg-lightBlue  hover:text-darkBlue rounded-full text-white"
-            href={linkrepo}
+            href={repoLink}
             title="View code in github"
             target="_blank"
           >

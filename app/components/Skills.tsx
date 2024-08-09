@@ -1,8 +1,7 @@
 import React from 'react';
-import { Title } from './ui/Title';
+import { Title, TitleProps } from './ui/Title';
 import {
   CSS,
-  Git,
   Github,
   HTML5,
   JavaScript,
@@ -16,8 +15,10 @@ import {
   TypeScript,
   Figma,
 } from '../components/ui/Logos';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 
-const Skills = ({ title }) => {
+const Skills = ({ title }: TitleProps) => {
   return (
     <div id="skills" className="flex flex-col p-3 md:text-sm w-full">
       <Title title={title} />
@@ -86,6 +87,9 @@ const Skills = ({ title }) => {
             </li>
             <li className="flex flex-row gap-5 items-center">
               <Figma /> <span>Figma</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
+              <FontAwesomeIcon icon={faTerminal} /> <span>Linux Terminal</span>
             </li>
           </ul>
         </div>
