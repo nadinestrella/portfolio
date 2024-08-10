@@ -14,7 +14,7 @@ export const AboutMe = () => {
             height={150}
             alt="myself photo"
             src={'/nadineProfile.jpg'}
-            className="object-cover w-28 md:w-40 h-28 md:h-40 overflow-hidden rounded-full mb-3"
+            className="object-cover w-28 md:w-40 h-28 md:h-40 overflow-hidden rounded-full mb-3 hover:transform hover:scale-105"
           />
         </Link>
 

@@ -22,7 +22,7 @@ const Skills = ({ title }: TitleProps) => {
   return (
     <div id="skills" className="flex flex-col p-3 md:text-sm w-full">
       <Title title={title} />
-      <div className="flex flex-col   md:flex-row gap-9 lg:flex-col md:mx-auto lg:m-0">
+      <div className="flex flex-col items-center md:items-start   md:flex-row gap-9 lg:flex-col md:mx-auto lg:m-0">
         <div>
           <h4 className="font-semibold text-lg pb-2">Frontend</h4>
           <ul>
