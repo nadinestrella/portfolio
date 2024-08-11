@@ -8,28 +8,48 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="p-3    max-w-screen-lg mx-auto">
+    <main className="p-6 max-w-screen-lg mx-auto">
       <Title title="About me" />
-      <p className="flex flex-col justify-center  pb-3">
-        I studied Business Administration and worked as an Administrative
-        Assistant for a few years.
+
+      <p className="mb-2">
+        Having spent eight years as an accountant, I have developed a keen eye
+        for detail, strong analytical skills, and a dedication to accuracy and
+        efficiency.{' '}
       </p>
-      <p>
-        In 2016, I moved to London and lived there until 2021. It was a great
-        experience and a daily challenge. There, I worked as a barista at
-        Starbucks until I had my first child.{' '}
+
+      <p className="mb-2">
+        Upon moving to <strong>London 🇬🇧</strong>, I faced the challenge of
+        adapting to a new environment and overcoming language barriers. While
+        working in a coffee shop, I developed my communication skills and
+        developed resilience in the face of adversity.{' '}
       </p>
-      <p>
-        After dedicating a few years to my family, last year I decided that I
-        wanted to embark on something new, have a challenge in mind, and do
-        something different from what I had known until then.
+
+      <p className="mb-2">
+        In 2020, I made the decision to prioritize my family and took a break
+        from my career to focus on motherhood👨‍👩‍👧‍👦. However, my desire to continue
+        learning and growing professionally never waned. Recognizing the
+        increasing demand for technical skills in today's job market, I embarked
+        on a journey to learn programming and enrolled in the{' '}
+        <strong>Adalab Fullstack Web Development Bootcamp</strong>🚀 .
       </p>
-      <p>
-        {' '}
-        I decided to study <strong>Web Programming</strong> and enrolled in a
-        bootcamp at Adalab. It has been a tough journey, but I am starting to be
-        proud of the small steps I am taking
+
+      <p className="mb-2">
+        Over the course, I have acquired proficiency in various programming
+        languages, tools, and frameworks relevant to{' '}
+        <strong>Full Stack Web Development</strong>💻. Through hands-on projects
+        and collaborative learning experiences, I have developed a strong
+        foundation in <strong>front-end and back-end development</strong>, as
+        well understanding of <strong>web design principles</strong> and{' '}
+        <strong>best practices</strong>✅.
       </p>
+      <p className="mb-4">
+        I am excited 😊 about the opportunity to blend my diverse background and
+        my recent tech training to contribute to the innovative projects. I am
+        confident that my ability to <strong>adapt to new challenges</strong>,
+        coupled with my <strong>passion for continuous learning</strong>, make
+        me a valuable asset to your <strong>team</strong>.
+      </p>
+      <p>Nadine Estrella </p>
     </main>
   );
 }
