@@ -28,8 +28,8 @@ export default function About() {
         In 2020, I made the decision to prioritize my family and took a break
         from my career to focus on motherhood 👶. However, my desire to continue
         learning and growing professionally never waned. Recognizing the
-        increasing demand for technical skills in today's job market, I embarked
-        on a journey to learn programming and enrolled in the{' '}
+        increasing demand for technical skills in today&apos;s job market, I
+        embarked on a journey to learn programming and enrolled in the{' '}
         <strong>Adalab Fullstack Web Development Bootcamp</strong> 🚀.
       </p>
 
