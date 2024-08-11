@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Title, TitleProps } from './ui/Title';
 import { ExperienceItem } from './ui/ExperienceItem';
 
@@ -12,7 +13,7 @@ export const Experience = ({ title }: TitleProps) => {
           date="Aug 2024 - Currently | Online"
           content={
             <div>
-              <p>
+              <p className="mb-2">
                 Development of the page for Adopta un Junior. Next, React,
                 TypeScript, HTML y Tailwind.
               </p>
