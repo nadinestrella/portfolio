@@ -10,8 +10,20 @@ export const Experience = ({ title }: TitleProps) => {
         <ExperienceItem
           title="Volunteering at Adopta un Junior - Frontend"
           date="Aug 2024 - Currently | Online"
-          content="Development of the page for Adopta un Junior. Next, React, TypeScript,
-            HTML y Tailwind."
+          content={
+            <div>
+              <p>
+                Development of the page for Adopta un Junior. Next, React,
+                TypeScript, HTML y Tailwind.
+              </p>
+              <ul className="list-disc pl-3">
+                Using:
+                <li>Typescript, NextJS, React, Tailwind for the Frontend</li>
+                <li>Java, Spring, MySQL for the Backend</li>
+                <li>Figma for Designs.</li>
+              </ul>
+            </div>
+          }
           imageUrl="/companies/adoptaunjunior_logo.jpeg"
         />
         <ExperienceItem
@@ -20,9 +32,9 @@ export const Experience = ({ title }: TitleProps) => {
           imageUrl="/companies/adoptaunjunior_logo.jpeg"
           content={
             <div>
-              <p>Responsible for the Frontend side of the blog.</p>
+              <p>Collaborated on the Frontend side of the blog.</p>
               <p>
-                Creation of reusable component that were used throughout the
+                Creation of reusable components that were used throughout the
                 codebase.
               </p>
               <p>
@@ -66,11 +78,6 @@ export const Experience = ({ title }: TitleProps) => {
                 rackets I needed to focus and to get early customers.
               </li>
               <li>
-                Created a website in which people could sign up for early beta
-                so I could know if people were interested, in which specific
-                rackets I needed to focus and to get early customers.
-              </li>
-              <li>
                 Created a Shopify website and managed all necessary plugins to
                 make the sell happen.
               </li>
@@ -90,20 +97,77 @@ export const Experience = ({ title }: TitleProps) => {
           title="Barista - Starbucks"
           date="Feb 2017 - Jan 2019 | London, UK"
           imageUrl="/companies/starbucks.jpeg"
-          content="aa"
+          content={
+            <div>
+              <p>In charge of opening the store everyday.</p>
+              <p>Till Management.</p>
+              <p>Displays merchandise properly in all areas.</p>
+              <p>Customer facing communication.</p>
+            </div>
+          }
         />
 
         <ExperienceItem
           title="Accountant - Humiclima, ACS Group"
           date="Mar 2014 - Dec 2016 | Palma de Mallorca"
           imageUrl="/companies/humiclima.jpeg"
-          content="aa"
+          content={
+            <div>
+              <p>
+                Process the day to day accounting transactions & maintaining the
+                general ledgers.
+              </p>
+              <p>
+                Carrying out daily, weekly, monthly reconciliations, management
+                accounts & quarterly VAT returns.{' '}
+              </p>
+              <p>
+                Preparing customers and subcontractors statements & dealing with
+                credit control.{' '}
+              </p>
+              <p>Ensuring suppliers paid within the agreed terms.</p>
+              <p>Preparing budgets, cash flow statements & related reports.</p>
+              <p>General office administration duties & support.</p>
+              <p>Monthly reconciliation of supplier and customer accounts. </p>
+              <p>
+                Monthly reconciliation of bank account and major balance sheet
+                codes.
+              </p>
+              <p>
+                Weekly update of cash flow report to include forecast period.
+              </p>
+            </div>
+          }
         />
         <ExperienceItem
           title="Accountant - Atil Cobra, ACS Group"
           date="May 2011- Mar 2014 - Madrid"
           imageUrl="/companies/cobra.jpeg"
-          content="aa"
+          content={
+            <div>
+              <p>
+                Process the day to day accounting transactions & maintaining the
+                general ledgers.
+              </p>
+              <p>
+                Carrying out daily, weekly, monthly reconciliations, management
+                accounts & quarterly VAT returns.
+              </p>
+              <p>
+                Preparing customers and subcontractors statements & dealing with
+                credit control.
+              </p>
+              <p>Ensuring suppliers paid within the agreed terms. </p>
+              <p>Monthly reconciliation of supplier and customer accounts.</p>
+              <p>
+                Monthly reconciliation of bank account and major balance sheet
+                codes.{' '}
+              </p>
+              <p>Having control of the company vehicles.</p>
+              <p>Telephone support.</p>
+              <p>General office administration duties & support. </p>
+            </div>
+          }
         />
       </ul>
     </div>
