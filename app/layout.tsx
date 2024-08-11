@@ -6,6 +6,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { AboutMe } from './components/AboutMe';
 import { NavegationBar } from './components/NavegationBar';
+import { Analytics } from '@vercel/analytics/react';
 
 config.autoAddCss = false;
 
@@ -37,6 +38,7 @@ export default function RootLayout({
 
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
