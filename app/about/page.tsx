@@ -26,21 +26,21 @@ export default function About() {
 
       <p className="mb-2">
         In 2020, I made the decision to prioritize my family and took a break
-        from my career to focus on motherhood👨‍👩‍👧‍👦. However, my desire to continue
+        from my career to focus on motherhood 👶. However, my desire to continue
         learning and growing professionally never waned. Recognizing the
         increasing demand for technical skills in today's job market, I embarked
         on a journey to learn programming and enrolled in the{' '}
-        <strong>Adalab Fullstack Web Development Bootcamp</strong>🚀 .
+        <strong>Adalab Fullstack Web Development Bootcamp</strong> 🚀.
       </p>
 
       <p className="mb-2">
         Over the course, I have acquired proficiency in various programming
         languages, tools, and frameworks relevant to{' '}
-        <strong>Full Stack Web Development</strong>💻. Through hands-on projects
-        and collaborative learning experiences, I have developed a strong
-        foundation in <strong>front-end and back-end development</strong>, as
-        well understanding of <strong>web design principles</strong> and{' '}
-        <strong>best practices</strong>✅.
+        <strong>Full Stack Web Development</strong> 💻. Through hands-on
+        projects and collaborative learning experiences, I have developed a
+        strong foundation in <strong>front-end and back-end development</strong>
+        , as well understanding of <strong>web design principles</strong> and{' '}
+        <strong>best practices</strong> ✅.
       </p>
       <p className="mb-4">
         I am excited 😊 about the opportunity to blend my diverse background and

@@ -4,6 +4,7 @@ import { Education } from './components/Education';
 import { Experience } from './components/Experience';
 import { MyProjects } from './components/MyProjects';
 import Skills from './components/Skills';
+import BtnToTop from './components/ui/BtnToTop';
 
 export const metadata: Metadata = {
   title: 'Nadine Estrella',
@@ -20,6 +21,7 @@ export default function Home() {
         <Education title="Education" />
         <Experience title="Experience" />
         <ContactMe title="Contact me" />
+        <BtnToTop />
       </div>
     </main>
   );
