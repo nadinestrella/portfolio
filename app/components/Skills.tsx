@@ -100,7 +100,7 @@ const Skills = ({ title }: TitleProps) => {
               👀 <span>Attention to detail</span>
             </li>
             <li className="flex flex-row gap-5 items-center">
-              ✅ <span>Problem- solvin</span>
+              ✅ <span>Problem - solving</span>
             </li>
             <li className="flex flex-row gap-5 items-center">
               👯‍♀️ <span>Team Work</span>
