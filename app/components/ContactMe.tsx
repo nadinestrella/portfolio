@@ -14,7 +14,7 @@ export const ContactMe = ({ title }: TitleProps) => {
         {' '}
         If you are interested on my profile,{' '}
         <Link
-          href={'/NadinEstrella CV eng.pdf'}
+          href={'/Nadine Estrella CV eng.pdf'}
           target="_blank"
           className=" text-sky-800  hover:text-blueSky underline underline-offset-1"
         >
