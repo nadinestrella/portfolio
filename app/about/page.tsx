@@ -20,8 +20,8 @@ export default function About() {
       <p className="mb-2">
         Upon moving to <strong>London 🇬🇧</strong>, I faced the challenge of
         adapting to a new environment and overcoming language barriers. While
-        working in a coffee shop, I developed my communication skills and
-        developed resilience in the face of adversity.{' '}
+        working in Starbucks, I developed my communication skills and developed
+        resilience in the face of adversity.{' '}
       </p>
 
       <p className="mb-2">

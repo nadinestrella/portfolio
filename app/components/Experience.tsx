@@ -9,16 +9,57 @@ export const Experience = ({ title }: TitleProps) => {
       <Title title={title} />
       <ul className="flex flex-col items-start pb-3 gap-4">
         <ExperienceItem
+          title="Junior Frontend Developer - APlanet"
+          date="Oct 2024 - May 2025 | Online"
+          imageUrl="/companies/aPlanet.jpeg"
+          content={
+            <div>
+              <ul className="mb-2">
+                <li>
+                  Contributed to the platform’s design system by creating
+                  reusable components for use in both new and existing pages.
+                </li>
+                <li>
+                  Fixed bugs and collaborated on ongoing improvements to the
+                  user interface (UI) and user experience (UX).{' '}
+                </li>
+                <li>
+                  Translated Figma designs into accessible, production-ready
+                  interfaces.
+                </li>
+                <li>
+                  Refactored core components (Buttons, Cards, Checkboxes, Radio
+                  Buttons) to enhance maintainability and accessibility.
+                </li>
+                <li>
+                  Used React Query to efficiently and scalably fetch and manage
+                  data.
+                </li>
+                <li>Documented components using Storybook.</li>
+                <li>
+                  Consumed RESTful APIs and used/created custom and React hooks
+                  to manage state and side effects.
+                </li>
+              </ul>
+              <p>Using:</p>
+              <ul className="list-disc pl-3">
+                <li>React, JavaScript, Tailwind for the Fronted.</li>
+                <li>Storybook for documentation.</li>
+                <li>Figma for Designs.</li>
+              </ul>
+            </div>
+          }
+        />
+        <ExperienceItem
           title="Volunteering at Adopta un Junior - Frontend"
-          date="Aug 2024 - Currently | Online"
+          date="Aug 2024 - Oct 2024 | Online"
           content={
             <div>
               <p className="mb-2">
                 Development of the page for Adopta un Junior. Next, React,
-                TypeScript, HTML y Tailwind.
               </p>
+              <p>Using:</p>
               <ul className="list-disc pl-3">
-                Using:
                 <li>Typescript, NextJS, React, Tailwind for the Frontend</li>
                 <li>Java, Spring, MySQL for the Backend</li>
                 <li>Figma for Designs.</li>
@@ -50,12 +91,12 @@ export const Experience = ({ title }: TitleProps) => {
                 Collaborated with the designers in order to align styles and
                 create mainteniable code.
               </p>
-              <p>
+              <p className="mb-2">
                 Presented the project to the AdoptaUnJunior staff along with my
                 team.
               </p>
+              <p>Using:</p>
               <ul className="list-disc pl-3">
-                Using:
                 <li>Typescript, NextJS, React, Tailwind for the Frontend</li>
                 <li>Java, Spring, MySQL for the Backend</li>
                 <li>Figma for Designs.</li>

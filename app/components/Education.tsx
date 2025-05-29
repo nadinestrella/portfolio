@@ -9,7 +9,7 @@ export const Education = ({ title }: TitleProps) => {
       <ul className="flex flex-col items-start pb-3 gap-4 ">
         <ExperienceItem
           title="Google Career Certificate in Cybersecurity"
-          date="Apr 2024 - Currently | Online"
+          date="Apr 2024 - Nov 2024 | Online"
           imageUrl="/companies/google.jpeg"
         />
         <ExperienceItem
