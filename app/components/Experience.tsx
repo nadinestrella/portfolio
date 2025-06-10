@@ -43,7 +43,9 @@ export const Experience = ({ title }: TitleProps) => {
               </ul>
               <p>Using:</p>
               <ul className="list-disc pl-3">
-                <li>React, JavaScript, Tailwind for the Fronted.</li>
+                <li>
+                  React, JavaScript, Sass and Typescript for the Frontend.
+                </li>
                 <li>Storybook for documentation.</li>
                 <li>Figma for Designs.</li>
               </ul>

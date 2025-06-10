@@ -24,9 +24,8 @@ export const AboutMe = () => {
             <strong className="text-blueSky">Nadine Estrella</strong>
           </h1>
           <p className="pb-3 text-center md:text-left text-gray-600">
-            {' '}
-            I am a Junior Fullstack Developer based in Madrid, eager to
-            kickstart my career in the tech industry.
+            I am a Frontend Developer based in Madrid, passionate about building
+            clean, user-focused web experiences.
           </p>
           <div className="flex flex-row gap-2 items-center text-xs">
             <Link
