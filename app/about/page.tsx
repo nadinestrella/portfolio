@@ -42,7 +42,30 @@ export default function About() {
         , as well understanding of <strong>web design principles</strong> and{' '}
         <strong>best practices</strong> ✅.
       </p>
-      <p className="mb-4">
+
+      <p className="mb-2">
+        After finishing, I started collaborating with
+        <strong>Adopta un Junior</strong> in their working groups, where,
+        together with my teammates, we developed the Adopta un Junior blog.
+      </p>
+      <p className="mb-2">
+        After that, I began collaborating on
+        <strong>Adopta un Junior's main website.</strong>Adopta un Junior's main
+        website.
+      </p>
+      <p className="mb-2">
+        In <strong>October 2024</strong> , I started working at{' '}
+        <strong>Aplanet</strong> as 👩‍💻 a Junior Frontend Developer. I have
+        contributed to the development of the platform with a new design and new
+        features, applying my previous knowledge and gaining new skills thanks
+        to my teammates and daily work.
+      </p>
+
+      <p className="mb-2">
+        I am now ready for a new adventure where I can continue growing my
+        career as a Frontend Developer.
+      </p>
+      <p className="mb-6">
         I am excited 😊 about the opportunity to blend my diverse background and
         my recent tech training to contribute to the innovative projects. I am
         confident that my ability to <strong>adapt to new challenges</strong>,

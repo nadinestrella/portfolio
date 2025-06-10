@@ -14,6 +14,7 @@ import {
   TailwindCSS,
   TypeScript,
   Figma,
+  Angular,
 } from '../components/ui/Logos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
@@ -45,6 +46,10 @@ const Skills = ({ title }: TitleProps) => {
             <li className="flex flex-row gap-5 items-center">
               <Reactt />
               <span>React</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
+              <Angular />
+              <span>Angular, in progress</span>
             </li>
             <li className="flex flex-row gap-5 items-center">
               <Next />
