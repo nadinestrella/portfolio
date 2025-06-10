@@ -50,8 +50,7 @@ export default function About() {
       </p>
       <p className="mb-2">
         After that, I began collaborating on
-        <strong>Adopta un Junior's main website.</strong>Adopta un Junior's main
-        website.
+        <strong>Adopta un Junior&apos;s main website.</strong>
       </p>
       <p className="mb-2">
         In <strong>October 2024</strong> , I started working at{' '}
