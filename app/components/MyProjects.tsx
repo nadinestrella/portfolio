@@ -17,6 +17,14 @@ export const MyProjects = ({ title }: TitleProps) => {
           imageUrl={'/giftList.png'}
         />
         <Card
+          title="Poke-app 💥"
+          text="A Pokémon app where you can search, view details, and build your own team of Pokémon."
+          link="https://nadinestrella.github.io/poke-app/"
+          repoLink="https://github.com/nadinestrella/poke-app"
+          tech="HTML5, JavaScript, Vue, Vite, NodeJS, CSS."
+          imageUrl={'/pokeApp.png'}
+        />
+        <Card
           title="Harry Potter🪄"
           text="Web search engine for characters from the famous Harry Potter series."
           link="https://nadinestrella.github.io/HarryPotter/"
