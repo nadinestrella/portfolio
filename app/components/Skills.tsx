@@ -15,6 +15,7 @@ import {
   TypeScript,
   Figma,
   Angular,
+  Vue,
 } from '../components/ui/Logos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
@@ -24,6 +25,7 @@ const Skills = ({ title }: TitleProps) => {
     <div id="skills" className="flex flex-col p-3 md:text-sm w-full">
       <Title title={title} />
       <div className="flex flex-col  md:items-start   md:flex-row gap-9 lg:flex-col md:mx-auto lg:m-0">
+        {/* Fronted */}
         <div>
           <h4 className="font-semibold text-lg pb-2">Frontend</h4>
           <ul>
@@ -52,6 +54,10 @@ const Skills = ({ title }: TitleProps) => {
               <span>Angular, in progress</span>
             </li>
             <li className="flex flex-row gap-5 items-center">
+              <Vue />
+              <span>Vue</span>
+            </li>
+            <li className="flex flex-row gap-5 items-center">
               <Next />
               <span>Next</span>
             </li>
@@ -66,6 +72,7 @@ const Skills = ({ title }: TitleProps) => {
             </li>
           </ul>
         </div>
+        {/* Backend */}
         <div>
           <h4 className="font-semibold text-lg pb-2">Backend</h4>
           <ul>
@@ -83,7 +90,7 @@ const Skills = ({ title }: TitleProps) => {
             </li>
           </ul>
         </div>
-
+        {/* Others */}
         <div>
           <h4 className="font-semibold text-lg pb-2">Others</h4>
           <ul>
@@ -98,6 +105,7 @@ const Skills = ({ title }: TitleProps) => {
             </li>
           </ul>
         </div>
+        {/* Soft Skills */}
         <div>
           <h4 className="font-semibold text-lg pb-2">Soft Skills</h4>
           <ul>
