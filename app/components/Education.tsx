@@ -8,6 +8,27 @@ export const Education = ({ title }: TitleProps) => {
       <Title title={title} />
       <ul className="flex flex-col items-start pb-3 gap-4 ">
         <ExperienceItem
+          title="Bootcamp de Desarrollo Frontend Moderno"
+          date="Aug 2025 - Nov 2025 | Online"
+          imageUrl="/companies/codigo_facilito.png"
+          content={
+            <ul className="text-sm text-grey">
+              <li>
+                <strong>Module 1:</strong> Fundamentals
+              </li>
+              <li>
+                <strong>Module 2:</strong> Vue
+              </li>
+              <li>
+                <strong>Module 3:</strong> React
+              </li>
+              <li>
+                <strong>Module 4:</strong> Angular
+              </li>
+            </ul>
+          }
+        />
+        <ExperienceItem
           title="Google Career Certificate in Cybersecurity"
           date="Apr 2024 - Nov 2024 | Online"
           imageUrl="/companies/google.jpeg"

@@ -1,58 +1,49 @@
+'use client';
+
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 export const NavegationBar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <nav className=" justify-items-center text-sm bg-lightBlue">
-      <ul className="grid grid-rows-2 md:grid-rows-1 grid-flow-col max-w-screen-md mx-auto">
-        <li>
-          <Link
+    <nav className="text-sm bg-lightBlue">
+      {/* Headder */}
+      <div className="flex justify-end mr-2 h-14 md:hidden">
+        {/* Hamburger */}
+        <button
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
+          className="text-sky-800 text-3xl focus:outline-none"
+        >
+          {open ? '✕' : '☰'}
+        </button>
+      </div>
+
+      {/* Menu */}
+      <ul
+        className={` ${
+          open ? 'block' : 'hidden'
+        } flex-col md:flex md:flex-row md:justify-center md:items-center
+      max-w-screen-md mx-auto`}
+      >
+        {[
+          { href: '/about', label: 'About me' },
+          { href: '/#skills', label: 'Skills' },
+          { href: '/#projects', label: 'Projects' },
+          { href: '/#education', label: 'Education' },
+          { href: '/#experience', label: 'Experience' },
+          { href: '/#contact', label: 'Contact Me' },
+        ].map(({ href, label }) => (
+          <li
+            key={href}
             className="block p-3 uppercase font-bold text-sky-800 hover:text-blueSky text-center"
-            href="/about"
           >
-            About me
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="block p-3 uppercase font-bold text-sky-800  hover:text-blueSky text-center"
-            href="/#skills"
-          >
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="block p-3 uppercase font-bold text-sky-800  hover:text-blueSky text-center"
-            href="/#projects"
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="block p-3 uppercase font-bold text-sky-800  hover:text-blueSky text-center"
-            href="/#education"
-          >
-            Education
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="block p-3 uppercase font-bold text-sky-800  hover:text-blueSky text-center"
-            href="/#experience"
-          >
-            Experience
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="block p-3 uppercase font-bold text-sky-800  hover:text-blueSky text-center"
-            href="/#contact"
-          >
-            Contact Me
-          </Link>
-        </li>
+            <Link href={href} onClick={() => setOpen(true)}>
+              {label}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
