@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { AboutMe } from './components/AboutMe';
 import { NavegationBar } from './components/NavegationBar';
 import { Analytics } from '@vercel/analytics/react';
+import { ThemeToggle } from './components/ui/ThemeToggle';
 
 config.autoAddCss = false;
 
@@ -30,8 +31,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} flex flex-col min-h-screen`}>
+      <body
+        className={`${poppins.className} flex flex-col min-h-screen dark:bg-slate-900 dark:text-slate-100 transition-colors`}
+      >
         <header>
+          <ThemeToggle />
           <AboutMe />
           <NavegationBar />
         </header>
