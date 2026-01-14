@@ -9,7 +9,7 @@ export function ThemeToggle() {
     <button
       onClick={toggleTheme}
       aria-label="Toggle theme"
-      className="text-xl transition-transform hover:scale-110"
+      className="text-sm transition-transform hover:scale-110 m-2"
     >
       {theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'}
     </button>
