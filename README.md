@@ -1,6 +1,6 @@
 
 
-# Nadine Strella's Portfolio
+# Nadine Estrella's Portfolio
 
 ✨ https://nadinestrella.vercel.app/
 
