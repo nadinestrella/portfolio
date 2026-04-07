@@ -9,6 +9,14 @@ export const MyProjects = ({ title }: TitleProps) => {
 
       <div className="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 gap-2 mx-auto">
         <Card
+          title="Atelier Shop 🛍️"
+          text="IN PROGRESS Development of a small online store."
+          link="https://atelier-shop.vercel.app/"
+          repoLink="https://github.com/nadinestrella/atelier-shop"
+          tech="HTML5, JavaScript, React, Next.js, Tailwind CSS and TypeScript, Lucide React Icons"
+          imageUrl={'/atelierShop.png'}
+        />
+        <Card
           title="Ask the Weather 🌤️"
           text="AskTheWeather is a web application that allows you to check the current weather and forecast for a city using the free OpenMeteo API."
           link="https://nadinestrella.github.io/askTheWeather/"
